@@ -115,8 +115,12 @@ main {
 	font-family: KaTeX_Main, serif;
 }
 
+body {
+	zoom: 90%;
+}
+
 .latex {
-	height: 100px;
+	height: 150px;
 	margin-left: auto;
 	margin-right: auto;
 	border: solid 2px black;
