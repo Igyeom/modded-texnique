@@ -959,7 +959,7 @@ let problems = [
 	{
 		"title": "Faà di Bruno's Formula",
 		"description": "Generalises the chain rule for higher derivatives. Proposed by caden3269 (teamyui)",
-		"latex": String.raw`\frac{\mathrm{d}^n}{\mathrm{d}x^n}f(g(x))=\sum_{m_1+2m_2+\cdots+nm_n=n}\frac{n!}{m_1!,1!^{m_1}m_2!,2!^{m_2}\cdots m_n!,n!^{m_n}}\cdot f^{(m_1+\cdots+m_n)}(g(x))\cdot\prod_{j=1}^n\left(g^{(j)}(x)\right)^{m_j}`
+		"latex": String.raw`\frac{\mathrm{d}^n}{\mathrm{d}x^n}f(g(x))=\sum_{m_1+2m_2+\cdots+nm_n=n}\frac{n!}{m_1!1!^{m_1}m_2!2!^{m_2}\cdots m_n!n!^{m_n}}\cdot f^{(m_1+\cdots+m_n)}(g(x))\cdot\prod_{j=1}^n\left(g^{(j)}(x)\right)^{m_j}`
 	},
 	{
 		"title": "Jensen's Inequality for Convex Functions",
@@ -1199,7 +1199,7 @@ let problems = [
 	{
 		"title": "Snell's Law",
 		"description": "Describes how waves change when passing between two different media. Proposed by caden3269 (teamyui)",
-		"latex": String.raw`\frac{\sin\alpha_1}{\sin\alpha_2}=\frac{n_2}{n_1}=\frac{v_1}{v_2}=\frac{\lambda_1}{\lambda_2}I=I_G+Md^2`
+		"latex": String.raw`\frac{\sin\alpha_1}{\sin\alpha_2}=\frac{n_2}{n_1}=\frac{v_1}{v_2}=\frac{\lambda_1}{\lambda_2}`
 	},
 	{
 		"title": "Heat Equation",
