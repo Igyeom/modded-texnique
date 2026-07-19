@@ -1,4 +1,4 @@
-// Custom problems, prepared by Caden
+// Custom problems, prepared by Caden et al.
 
 let problems = [
 	{
