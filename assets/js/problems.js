@@ -1019,7 +1019,7 @@ let problems = [
 	{
 		"title": "Definition of a Commutative Square",
 		"description": "Shows how different objects and morphisms connect. Proposed by caden3269 (teamyui)",
-		"latex": String.raw`\begin{matrix}A&\xrightarrow f&B\\\downarrow g&&\downarrow h\\C&\xrightarrow k&D\end{matrix}\implies h\circ f=k\circ g`
+		"latex": String.raw` \begin{matrix} A & \xrightarrow{f} & B \\ \downarrow{g} & & \downarrow{h} \\ C & \xrightarrow{k} & D \end{matrix}\implies h\circ f=k\circ g`
 	},
 	{
 		"title": "Stefan-Boltzmann Law",
