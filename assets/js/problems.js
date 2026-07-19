@@ -1724,7 +1724,7 @@ let problems = [
 	{
 		"title": "Ramanujan-Sato Series for \(1/\pi\)",
 		"description": "Provides a framework to generate rapidly converging series for calculating π. Proposed by caden3269 (teamyui)",
-		"latex": String.raw`f(x)=\frac{L}{1+e^{-k(x-x_0)}}`
+		"latex": String.raw`\frac{1}{\pi}=\sum_{k=0}^{\infty}\frac{(\frac{1}{2})_k (s)_k (1-s)_k}{(1)_k^3}(Ak+B)z^k`
 	},
 	{
 		"title": "Halley's Method",
@@ -2022,7 +2022,7 @@ let problems = [
 		"latex": String.raw`\delta S=0`
 	},
 	{
-		"title": "The \(\varepsilon-\delta\) Definition",
+		"title": "The \(\varepsilon\)-\(\delta\) Definition",
 		"description": "The formal, rigorous formulation of a limit. Proposed by caden3269 (teamyui)",
 		"latex": String.raw`\forall\varepsilon>0,\exists\delta>0:\forall x,(0<|x-c|<\delta\implies|f(x)-L|<\varepsilon)`
 	},
